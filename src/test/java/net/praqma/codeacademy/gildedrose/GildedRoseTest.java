@@ -17,6 +17,6 @@ public class GildedRoseTest {
     @Test
     public void no_negative_quality() {
         Item thing = new Item("foo", -1, -1);
-        assertEquals(0, app.items[0].age);
+        assertEquals(0, thing.age);
     }
 }

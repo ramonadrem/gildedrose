@@ -12,6 +12,9 @@ public class Item {
         this.name = name;
         this.sellIn = sellIn;
         this.quality = quality;
+        if(quality<0){
+        this.quality = 0;
+        }
     }
 
    @Override
